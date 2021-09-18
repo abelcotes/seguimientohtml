@@ -3,16 +3,39 @@
     <head>
         <meta charset="UTF-8">   <!--Este es un comando para caracteres especiales-->
         <title>Misión TIC</title>
+        <style>
+            h2{
+                background-color: blue;
+                font-size: 30px;
+            }
+            #my-title{    /*Se aplica al id, se llama con el numeral*/
+                color: #8f97ca;
+                font-size: 40px;
+                background-color: black;
+            }
+            #my-text{
+                background-color: chocolate;
+            }
+            .title-style {
+                font-size: 40px;
+                font-weight: bold;
+                color: crimson;
+            }
+        </style>
     </head>
     
     <!---->
     <body>
         <h1 style ="color: red;">Hola Mision</h1>
-        <h2 style="color: aqua; font-size: 50px; background-color: black"  >Hola Mision</h2>
-        <h3>Hola Mision</h3>
-        <h4>Hola Mision</h4>
-        <h5>Hola Mision</h5>
+        <h3 class="title-style">Hola Mision, este tiene clase</h3> <!--Cuando necesito aplicar a varios elementos un estilo, se hace por clase-->
+        <h2>Hola Mision h2</h2>
+        <h4 id="my-title">Hola Mision ID</h4>  <!--Este elmento id es unico, solo aplica para este elemento-->
+        <h5>
+            <span id="my-text">Hola Mision TIC chocolate</span>
+        </h5>
+
         <h6>Hola Mision</h6>
+        <h2>Ejemplo</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quia, velit dolorem maiores fugit veniam cum vitae. At ex placeat dolorum odio quae veritatis quis sequi. Mollitia, nihil? Nisi, nostrum?</p>
         <br>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum optio, incidunt laudantium voluptatem tenetur quidem quibusdam pariatur ipsum, quos minus labore sunt porro eos iure ut, fuga animi omnis. Doloribus?</p>
