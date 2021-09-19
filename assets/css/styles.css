@@ -1,0 +1,48 @@
+h2{
+    background-color: blue;
+    font-size: 30px;
+}
+#my-title{    /*Se aplica al id, se llama con el numeral*/
+    color: #8f97ca;
+    font-size: 40px;
+    background-color: black;
+}
+#my-text{
+    background-color: chocolate;
+}
+.title-style {
+    font-size: 40px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.btn{
+    
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px; /*Redondea los bordes del boton*/
+    margin: 20px;
+    padding: 30;
+}
+.btn-danger{
+    background-color: red;
+    color: white;
+    
+}
+.btn-primary {
+    background-color: yellow;
+    color: black;
+}
+.btn-position {
+    position: absolute;
+    top: 10%;
+    left 50%;
+}
+.box-position{
+    position: absolute;
+    top: 10%;
+    left; 50%;
+}
+
+
